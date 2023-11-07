@@ -43,7 +43,7 @@ class Lab12B
 
     public static void Main(string[] args)
     {
-        Console.WriteLine("You are about to create a dog.");
+        Console.WriteLine("You are about to create a dog");
         Console.Write("How old is the dog: ");
         int age =int.Parse(Console.ReadLine());
         Console.Write("How much does the dog weigh: ");
