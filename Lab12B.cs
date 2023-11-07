@@ -48,7 +48,7 @@ class Lab12B
         int age =int.Parse(Console.ReadLine());
         Console.Write("How much does the dog weigh: ");
         double weight =int.Parse(Console.ReadLine());
-        Console.Write("What is the dog’s name: ");
+        Console.Write("What is the dog's name: ");
         string name =Console.ReadLine();
         Console.Write("What color is the dog: ");
         string fur_color =Console.ReadLine();
@@ -61,7 +61,7 @@ class Lab12B
         Console.Write(d1.name+" is hungry, how much should he eat: ");
         double food=double.Parse(Console.ReadLine());
         d1.eat(food);
-        Console.Write(d1.name+" isn’t a very good name. What should they be renamed to: ");
+        Console.Write(d1.name+" isn't a very good name. What should they be renamed to: ");
         string new_name=Console.ReadLine();
         d1.rename(new_name);
         Console.WriteLine("\n" + d1.name + " is a " + d1.age + " year old " + d1.fur_color + " " + d1.breed + " that weighs " + d1.weight + " lbs.");
